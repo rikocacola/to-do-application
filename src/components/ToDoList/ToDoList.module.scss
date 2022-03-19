@@ -1,0 +1,49 @@
+.to-do-list-wrap{
+  display: flex;
+  width: 100%;
+  padding: 0 0 30px 30px;
+  .to-do-list-undone{
+    margin-right: 100px;
+    border-left: 2px solid green;
+    padding-left: 30px;
+    .title{
+      margin: 10px 0 30px 10px;
+      font-size: 30px;
+    }
+  }
+  .to-do-list-done{
+    border-left: 2px solid maroon;
+    padding-left: 30px;
+    .title{
+      margin: 10px 0 30px 10px;
+      font-size: 30px;
+    }
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .to-do-list-wrap{
+    padding: 0 0 20px 20px;
+    .to-do-list-undone{
+      margin-right: 30px;
+      padding-left: 20px;
+    }
+    .to-do-list-done{
+      padding-left: 20px;
+    }
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .to-do-list-wrap{
+    padding: 0 0 20px 20px;
+    .to-do-list-undone{
+      margin-right: 100px;
+      margin-left: 30px;
+      padding-left: 30px;
+    }
+    .to-do-list-done{
+      padding-left: 30px;
+    }
+  }
+}
